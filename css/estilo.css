@@ -1,4 +1,7 @@
 #myCanvas{
+    background-image:url(../img/vilasmurf.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
     width:1000px;
     height:700px;
     border:2px solid #000;
