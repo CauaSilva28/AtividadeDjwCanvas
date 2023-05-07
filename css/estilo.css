@@ -1,3 +1,7 @@
+body{
+    background-color:lightskyblue;
+}
+
 #myCanvas{
     background-image:url(../img/vilasmurf.jpg);
     background-repeat:no-repeat;
