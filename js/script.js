@@ -1,8 +1,8 @@
 const canvas = document.getElementById('myCanvas');
 const ctx = canvas.getContext('2d');
 
-x = 5;
-y = 12;
+var x = 5;
+var y = 12;
 
 function papaismurf(){
     ctx.clearRect(0,0,1000,700);
