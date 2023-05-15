@@ -12,7 +12,9 @@ retangulo();
 imagem();
 
 function imagem(){
-    ctx.drawImage(imgbola, 480, 330, 40, 40);
+    imgbola.onload = function() {
+        ctx.drawImage(imgbola, 480, 330, 40, 40);
+    }
 }
 
 function retangulo(){

@@ -13,7 +13,7 @@ Feito por Carlos e Cauã Silva 🎮
 <p>Logo após foi criado outra const chamada "imgbola" para indicar uma nova imagem, e em baixo adicionamos a imagem colocando o seu src</p>
 
 ### Função imagem
-<p>Começamos criando a função imagem que irá posicionar e alterar o tamanho da imagem com o código "ctx.drawImage(imgbola, 480, 330, 40, 40);", onde primeiro ele irá pegar o elemento para posicionar e mudar o tamanho que é a const imgbola, logo após será a posição em x, depois em y e por fim o width(largura) e o height(altura) da imagem. Esse código fez com que a imagem da bola fique posicionada no meio.</p>
+<p>Começamos criando a função imagem que irá posicionar e alterar o tamanho da imagem com o código "ctx.drawImage(imgbola, 480, 330, 40, 40);", onde primeiro ele irá pegar o elemento para posicionar e mudar o tamanho que é a const imgbola, logo após será a posição em x, depois em y e por fim o width(largura) e o height(altura) da imagem, o código imgbola.onload foi utilizado para carregar a imagem. Esse código fez com que a imagem da bola fique posicionada no meio.</p>
 
 ### Função retangulo
 <p>Após a função imagem criamos a função retangulo que será o personagem. Nessa função adicionamos 3 retangulos com o código "ctx.fillRect(posição x, posição y, width(largura), height(altura))", todos juntos com a mesma posição no eixo x e y e mesma largura, porém com altura e cores diferentes. A cor foi adicionada a partir do código "ctx.fillStyle = 'cor'".</p>
@@ -29,3 +29,6 @@ Feito por Carlos e Cauã Silva 🎮
 
 ### Finalizando
 <p>Para finalizar, chamamos as funções a partir dos seus nomes, na ordem: circulo(); linha(); curva(); curva2(); retangulo(); imagem();.</p>
+
+## Resultado
+<img src="img/print.png">
