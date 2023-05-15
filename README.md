@@ -2,7 +2,7 @@
 Feito por Carlos e Cauã Silva 🎮
 
 ## HTML
-<p>Foi feita a estrutura básica do html e adicionado um canvas com a largura de 1000px e altura de 700px, com a id "myCanvas", e dentro uma imagem.</p>
+<p>Foi feita a estrutura básica do html e adicionado um canvas com a largura de 1000px e altura de 700px, com a id "myCanvas".</p>
 
 ## CSS
 <p>Foi adicionado uma cor de fundo para o body e para o canvas a partir da id "myCanvas" junto com a borda.</p>
