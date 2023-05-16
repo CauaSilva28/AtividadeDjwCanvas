@@ -6,10 +6,14 @@ imgbola.src = 'img/bola.png';
 
 circulo();
 linha();
-curva();
-curva2();
+arco();
+arco2();
 retangulo();
 imagem();
+curva();
+curva2();
+curva3();
+curva4();
 
 function imagem(){
     imgbola.onload = function() {
@@ -45,16 +49,44 @@ function circulo(){
     ctx.stroke();
 }
 
-function curva(){
+function arco(){
     ctx.strokeStyle = '#fff';
     ctx.beginPath();
     ctx.arc(0,350,150,Math.PI/2,3*Math.PI/2,true);
     ctx.stroke();
 }
 
-function curva2(){
+function arco2(){
     ctx.strokeStyle = '#fff';
     ctx.beginPath();
     ctx.arc(1000,350,150,Math.PI/2,3*Math.PI/2);
     ctx.stroke();
+}
+
+function curva(){
+    ctx.beginPath();
+    ctx.moveTo(0, 50);
+    ctx.bezierCurveTo(0, 50, 60, 60, 50, 0);
+    ctx.stroke(); 
+}
+
+function curva2(){
+    ctx.beginPath();
+    ctx.moveTo(1000, 50);
+    ctx.bezierCurveTo(1000, 50, 940, 60, 950, 0);
+    ctx.stroke(); 
+}
+
+function curva3(){
+    ctx.beginPath();
+    ctx.moveTo(0,650);
+    ctx.bezierCurveTo(0, 650, 60, 640, 50, 700);
+    ctx.stroke(); 
+}
+
+function curva4(){
+    ctx.beginPath();
+    ctx.moveTo(1000,650);
+    ctx.bezierCurveTo(1000, 650, 940, 640, 950, 700);
+    ctx.stroke(); 
 }
