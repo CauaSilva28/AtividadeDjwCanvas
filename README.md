@@ -31,7 +31,7 @@ Feito por Carlos e Cauã Silva 🎮
 <p>Após as funções para criação de arcos, criamos as funções para criação de curvas. Ela é bem parecida com a de linha, contendo o moveTo() para indicar seu ponto de partida, porém no lugar de lineTo() utilizamos o codigo ctx.bezierCurveTo(x1, y1, x2, y2, x3, y3) que é uma curva cúbica de Bézier, onde os primeiros valores são as coordenadas x e y do primeiro ponto de controle, os próximos dois as coordenadas x e y do segundo ponto de controle e os dois valores finais as coordenadas x e y do ponto final da curva.</p>
 
 ### Finalizando
-<p>Para finalizar, chamamos as funções a partir dos seus nomes, na ordem: circulo(); linha(); curva(); curva2(); retangulo(); imagem();.</p>
+<p>Para finalizar, chamamos as funções a partir dos seus nomes, na ordem: circulo(); linha(); arco(); arco2(); retangulo(); imagem(); curva(); curva2(); curva3(); curva4();.</p>
 
 ## Resultado
 <img src="img/print.png">
